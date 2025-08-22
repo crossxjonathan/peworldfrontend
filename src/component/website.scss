@@ -1,0 +1,1964 @@
+//#workerspages #recruiterspages
+
+#workerspages,
+#recruiterspages {
+    width: 100%;
+}
+
+#workerspages section,
+#recruiterspages section {
+    margin-top: 40px;
+    // margin-bottom: 40px;
+}
+
+#workerspages .homecolor,
+#recruiterspages .homecolor {
+    background-color: #F6F7F8;
+    width: 100%;
+}
+
+#workerspages .containerHome,
+#recruiterspages .containerHome {
+    display: flex;
+    padding: 20px 0px 0px 0px;
+    justify-content: center;
+}
+
+
+//SEARCH HOME PROFILE WORKER
+
+#workerspages .containerHome .searchwrapper,
+#recruiterspages .containerHome .searchwrapper {
+    -webkit-box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    padding: 10px 0px 10px 0px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .containerHome .searchwrapper .searchinput input {
+    width: 700px;
+    padding: 13px 10px 13px 20px;
+    color: #9EA0A5;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px 0px 0px 20px;
+    border: none;
+}
+
+#workerspages .containerHome .searchwrapper .searchright {
+    display: flex;
+    padding: 0px 30px 0px 0px;
+}
+
+#workerspages .containerHome .searchwrapper .searchright .searchicon {
+    padding: 10px 10px 0px 0px;
+}
+
+//CATEGORY DROPDOWN
+
+#workerspages .containerHome .searchwrapper .searchright .category {
+    padding: 10px 30px 0px 20px;
+    color: #9EA0A5;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#workerspages .containerHome .searchwrapper .searchright .category .subcategory {
+    position: relative;
+    display: inline-block;
+    right: 80px;
+    top: 10px;
+}
+
+#workerspages .containerHome .searchwrapper .searchright .category .subcategory .subcategorycontent {
+    display: none;
+    position: absolute;
+    background-color: #3b279e;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .containerHome .searchwrapper .searchright .category:hover .subcategory .subcategorycontent {
+    display: block;
+}
+
+
+#workerspages .containerHome .searchwrapper .searchright .category .subcategory .subcategorycontent a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#workerspages .containerHome .searchwrapper .searchright .category .subcategory .subcategorycontent a:hover {
+    background-color: #1f154e;
+    box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+}
+
+#workerspages .containerHome .searchwrapper .searchright .searchbutton {
+    background-color: #5E50A1;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .containerHome .searchwrapper .searchright .searchbutton:hover {
+    background-color: #3b279e;
+    box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+}
+
+//TABLE HOME PROFILE
+
+#workerspages .containerHome .tablewrapper,
+#recruiterspages .containerHome .tablewrapper {
+    box-sizing: border-box;
+    width: 1000px;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 50px 0px 50px 0px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .containerHome .tablewrapper .Nohistory{
+    display: grid;
+    justify-content: center;
+}
+
+#workerspages .containerHome .tablewrapper .Nohistory img{
+    width: 200px;
+}
+
+#workerspages .containerHome .tablewrapper .Nohistory h1{
+    font-weight: 600;
+    color: #5E50A1;
+}
+
+#workerspages .containerHome .tablewrapper .containerLoading p,
+#recruiterspages .containerHome .tablewrapper .containerLoading p{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+#workerspages .topjob,
+#recruiterspages .topjob {
+    display: flex;
+    background-color: #5E50A1;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 15px;
+    width: 100%;
+    height: 70px;
+}
+
+#workerspages .topjob p,
+#recruiterspages .topjob p {
+    padding-left: 140px;
+}
+
+#workerspages .containerHome .tablewrapper .cardHome,
+#recruiterspages .containerHome .tablewrapper .cardHome {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+#workerspages .containerHome .tablewrapper .cardHome .subLeftCard,
+#recruiterspages .containerHome .tablewrapper .cardHome .subLeftCard {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#workerspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data h3,
+#recruiterspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data h3 {
+    font-weight: 600;
+}
+
+#workerspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data p,
+#recruiterspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data p {
+    font-weight: 600;
+    color: #C4C4C4;
+}
+
+#workerspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data .domicile,
+#recruiterspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data .domicile {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: #C4C4C4;
+}
+
+#workerspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data .skillContainer,
+#recruiterspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data .skillContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#workerspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data .skillContainer .yellowSkill,
+#recruiterspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data .skillContainer .yellowSkill {
+    background-color: #f3b434;
+    border: #FBB017 solid 2px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#workerspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data .skillContainer .yellowSkill p,
+#recruiterspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data .skillContainer .yellowSkill p {
+    margin: 0;
+    color: #F6F7F8;
+}
+
+#workerspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data img,
+#recruiterspages .containerHome .tablewrapper .cardHome .subLeftCard .profile-data img {
+    width: 20px;
+    height: 20px;
+}
+
+#workerspages .cardImage,
+#recruiterspages .cardImage {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #5E50A1;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+#workerspages .cardImageHistory,
+#recruiterspages .cardImageHistory {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    // border: 5px solid #5E50A1;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+#workerspages .containerHome .tablewrapper .cardHome .subRightCard,
+#recruiterspages .containerHome .tablewrapper .cardHome .subRightCard {
+    background-color: #5E50A1;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    top: 30px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .containerHome .tablewrapper .cardHome .subRightCard:hover,
+#recruiterspages .containerHome .tablewrapper .cardHome .subRightCard:hover {
+    background-color: #3b279e;
+    box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+}
+
+
+#workerspages .containerHome .tablewrapper .tableprofile,
+#recruiterspages .containerHome .tablewrapper .tableprofile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 100px 0px;
+}
+
+
+#workerspages .containerHome .tablewrapper .tableprofile .lefttable,
+#recruiterspages .containerHome .tablewrapper .tableprofile .lefttable {
+    display: flex;
+}
+
+#workerspages .containerHome .tablewrapper .tableprofile .lefttable .profilecontent,
+#recruiterspages .containerHome .tablewrapper .tableprofile .lefttable .profilecontent {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+}
+
+#workerspages .containerHome .tablewrapper .tableprofile .righttable,
+#recruiterspages .containerHome .tablewrapper .tableprofile .righttable {
+    background-color: #5E50A1;
+    padding: 15px 20px 15px 20px;
+    height: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .containerHome .tablewrapper .tableprofile .righttable:hover,
+#recruiterspages .containerHome .tablewrapper .tableprofile .righttable:hover {
+    background-color: #3b279e;
+    box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+}
+
+#workerspages .pagination,
+#recruiterspages .pagination {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+}
+
+#workerspages .pagination a,
+#recruiterspages .pagination a {
+    color: #E2E5ED;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .pagination a.active,
+#recruiterspages .pagination a.active {
+    background-color: #5E50A1;
+    color: #E2E5ED;
+    border: 1px solid #5E50A1;
+}
+
+#workerspages .pagination a:hover:not(.active),
+#recruiterspages .pagination a:hover:not(.active) {
+    background-color: #5E50A1;
+}
+
+// PORTOFOLIO PROFILE
+#workerspages .homecolor.bgportofolio {
+    width: 100%;
+    height: 700px;
+}
+
+#workerspages .homecolor.bgportofolio .purplebackground {
+    background-color: #5E50A1;
+    width: 100%;
+    height: 300px;
+    padding: 50px 150px;
+}
+
+#workerspages .homecolor.bgportofolio .purplebackground .portofoliocontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#workerspages .homecolor.bgportofolio .purplebackground .profilewrapper {
+    background-color: #ffffff;
+    width: 300px;
+    height: 500px;
+    margin-right: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .homecolor.bgportofolio .purplebackground .portofoliowrapper {
+    background-color: #ffffff;
+    width: 700px;
+    height: 300px;
+    margin-left: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+// WORKERS PROFILE
+#workerspages .homecolor .workerscontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#workerspages .homecolor .workerscontainer .rectanglepurple {
+    position: absolute;
+    background-color: #5E50A1;
+    width: 100%;
+    height: 200px;
+    border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -ms-border-radius: 4px 4px 0px 0px;
+    -o-border-radius: 4px 4px 0px 0px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper {
+    position: relative;
+    display: flex;
+    padding: 50px 0px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft {
+    background-color: #ffffff;
+    width: 400px;
+    height: auto;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -ms-border-radius: 4px 4px 4px 4px;
+    -o-border-radius: 4px 4px 4px 4px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile {
+    padding: 50px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .imageprofile {
+    display: flex;
+    justify-content: center;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .imageprofile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: #5E50A1 5px solid;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .profiledata h3 {
+    font-weight: 600;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .profiledata h2 {
+    color: #1F2A36;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .profiledata p {
+    color: #9EA0A5;
+    font-size: 14px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .profiledata .domicilemap {
+    display: flex;
+    gap: 5px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .profiledata .domicilemap img {
+    width: 20px;
+    height: 20px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .hirebutton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #5E50A1;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .hirebutton:hover {
+    background-color: #352381;
+    box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .EditButton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #FBB017;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .EditButton:hover {
+    background-color: #ffaa00;
+    box-shadow: 0 0 5px 1px rgba(255, 238, 0, 0.8);
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .skillContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .skillContainer .yellowSkill {
+    background-color: #f3b434;
+    border: #FBB017 solid 2px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteLeft .personalProfile .skillContainer .yellowSkill p {
+    margin: 0;
+    font-weight: 600;
+    color: #F6F7F8;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight {
+    background-color: #ffffff;
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -ms-border-radius: 4px 4px 4px 4px;
+    -o-border-radius: 4px 4px 4px 4px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleTransparentRight {
+    background-color: transparent;
+    width: 800px;
+    position: relative;
+    bottom: 15px;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -ms-border-radius: 4px 4px 4px 4px;
+    -o-border-radius: 4px 4px 4px 4px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .titlePortfolio {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .titlePortfolio h3 {
+    font-weight: 600;
+    cursor: pointer;
+    color: #9EA0A5;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .titlePortfolio h3.active {
+    color: #000;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .titlePortfolio .portfolio hr,
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .titlePortfolio .experience hr {
+    border: none;
+    height: 2px;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .titlePortfolio .portfolio.active hr,
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .titlePortfolio .experience.active hr {
+    // background-color: #5E50A1;
+    border: #5E50A1 2px solid;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content {
+    margin-top: 20px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .portfolio-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .portfolio-container .portfolio-content img {
+    border: #5E50A1 2px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .portfolio-container .portfolio-content p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .portfolio-container .deletebutton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #c00505;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .portfolio-container .deletebutton:hover {
+    background-color: #e20505;
+    box-shadow: 0 0 5px 1px rgba(248, 0, 0, 0.8);
+}
+
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .experience-container {
+    display: grid;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .experience-container .experience-content {
+    display: flex;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .experience-container .experience-content img {
+    width: 100px;
+    height: 100px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .experience-container .experience-content .sub-experience {
+    padding: 0 10px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .experience-container .experience-content .sub-experience h1 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .experience-container .experience-content .sub-experience h2 {
+    color: #9EA0A5;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .experience-container .experience-content .sub-experience p {
+    width: '100%';
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .experience-container .experience-content .sub-experience .deletebutton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #c00505;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content .experience-container .experience-content .sub-experience .deletebutton:hover {
+    background-color: #e20505;
+    box-shadow: 0 0 5px 1px rgba(248, 0, 0, 0.8);
+}
+
+#workerspages .homecolor .workerscontainer .workerswrapper .RectangleWhiteRight .content img {
+    width: 100%;
+    height: auto;
+}
+
+
+// EDIT PROFILE WORKERS
+
+#workerspages .homecolor.bgedit {
+    width: 100%;
+    height: 3300px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground {
+    display: flex;
+    background-color: #5E50A1;
+    width: 100%;
+    height: 300px;
+    padding: 50px 150px;
+    justify-content: space-between;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile {
+    display: block;
+    width: 100%;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper {
+    background-color: #ffffff;
+    width: 300px;
+    height: 350px;
+    padding: 20px 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .profiledata {
+    padding: 20px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .profiledata h3 {
+    font-weight: 600;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editcontainer {
+    padding: 10px 0;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editcontainer .Savebutton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #5E50A1;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editcontainer .Savebutton:hover {
+    background-color: #352381;
+    box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editcontainer .Cancelbutton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #5E50A1;
+    border: #5E50A1 2px solid;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editcontainer .Cancelbutton:hover {
+    background-color: #352381;
+    color: #E2E5ED;
+    box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .profiledata p {
+    color: #9EA0A5;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .imageprofile {
+    display: flex;
+    justify-content: center;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .imageprofile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: #5E50A1 5px solid;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editprofile {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .uploadprofile,
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .uploadprofile{
+    display: flex;
+    position: absolute;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .uploadprofile button,
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .uploadprofile button{
+    display: flex;
+    left: 110px;
+    top: 25px;
+    position: relative;
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #5E50A1;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+
+#workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .uploadprofile button:hover,
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .uploadprofile button:hover{
+    background-color: #352381;
+    box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+}
+
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile,
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile {
+    display: block;
+    width: 100%;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper,
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper {
+    background-color: #ffffff;
+    width: 700px;
+    height: 600px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper .righteditprofile,
+#workerspages .homecolor.bgedit .purplebackground .editformwrapper .work-experience .righteditprofile,
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .title-form,
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper .title-form,
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .title-form,
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .title-form
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper .righteditprofile,
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .righteditprofile,
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .title-form,
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper .title-form,
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .title-form,
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .title-form {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 0px 10px 20px;
+}
+
+// HIRE PAGE
+#workerspages .righteditprofile .editformwrapper .title-form h1{
+    font-weight: 600;
+    padding: 20px 0px 10px 20px;
+}
+
+#workerspages .righteditprofile .editformwrapper .title-form p{
+    padding: 0px 10px 0px 20px;
+    font-size: 17px;
+    color: #46505C;
+}
+
+#workerspages .righteditprofile .editformwrapper .hirebutton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #FBB017;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#workerspages .righteditprofile .editformwrapper .hirebutton:hover {
+    background-color: #ffee00;
+    box-shadow: 0 0 5px 1px rgb(255, 187, 0);
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper hr,
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile hr,
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience hr,
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio hr,
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper hr,
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile hr,
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience hr,
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #C4C4C4;
+}
+
+
+#workerspages .righteditprofile .editformwrapper .formGroup,
+#workerspages .righteditprofile .editSkillprofile .formGroup,
+#workerspages .righteditprofile .workexperienceform .formGroup,
+#workerspages .righteditprofile .portofolio .formGroup,
+#recruiterspages .righteditprofile .editformwrapper .formGroup,
+#recruiterspages .righteditprofile .editSkillprofile .formGroup,
+#recruiterspages .righteditprofile .workexperienceform .formGroup,
+#recruiterspages .righteditprofile .portofolio .formGroup {
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+#workerspages .righteditprofile .editformwrapper .formGroup h6,
+#workerspages .righteditprofile .editSkillprofile .formGroup h6,
+#workerspages .righteditprofile .work-experience .formGroup h6,
+#workerspages .righteditprofile .portofolio .formGroup h6,
+#recruiterspages .righteditprofile .editformwrapper .formGroup h6,
+#recruiterspages .righteditprofile .editSkillprofile .formGroup h6,
+#recruiterspages .righteditprofile .work-experience .formGroup h6,
+#recruiterspages .righteditprofile .portofolio .formGroup h6  {
+    color: #A0A0A0;
+}
+
+// EDIT SKILL PROFILE
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile {
+    display: block;
+    background-color: #ffffff;
+    width: 700px;
+    height: auto;
+    margin: 20px 0px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding-bottom: 20px; /* Add padding at the bottom */
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile .skillContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile .skillbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile .skillbox .skillcard {
+    background-color: #f3b434;
+    border: #FBB017 solid 2px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile .skillbox .skillcard:hover {
+    background-color: #ffaa00;
+
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile .title-skill {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 0px 10px 20px;
+}
+
+#workerspages .righteditprofile .editSkillprofile input[type="text"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding: 7px 13px;
+    width: 550px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: none;
+    border-radius: 4px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile .skill-button {
+    background-color: #FBB017;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 13px 20px 0px 30px;
+    cursor: pointer;
+    text-wrap: nowrap;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile .skill-button:hover {
+    background-color: #ffffff;
+    color: #FBB017;
+    border: 1px solid #FBB017;
+}
+
+// FORM WORK EXPERIENCE INPUT
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience {
+    display: block;
+    background-color: #ffffff;
+    width: 700px;
+    height: auto;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .experienceContainer{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .experienceContainer img{
+    width: 100px;
+    height: 100px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .experienceContainer .experiencedetail h4{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .experienceContainer .experiencedetail h2{
+    color: #46505C;
+    font-size: 18px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .experienceContainer .experiencedetail p{
+    color: #9EA0A5;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .experienceContainer .experiencedetail .descExp p{
+    color: #000000;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .experienceContainer .experiencedetail .DeleteExperience{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 20px;
+    background-color: #c00505;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .experienceContainer .experiencedetail .DeleteExperience:hover{
+    background-color: #e20505;
+    box-shadow: 0 0 5px 1px rgba(248, 0, 0, 0.8);
+}
+
+#workerspages .righteditprofile .work-experience input[type="text"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding: 7px 13px;
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: none;
+    border-radius: 4px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .companyform {
+    display: flex;
+}
+
+#workerspages .righteditprofile .work-experience .companyform input[type="text"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding: 7px 13px;
+    width: 330px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: none;
+    border-radius: 4px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+}
+
+#workerspages .righteditprofile .work-experience .companyform input[type="datetime"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding: 7px 13px;
+    width: 330px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: none;
+    border-radius: 4px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+}
+
+#workerspages .righteditprofile .editformwrapper .descriptionform textarea[type="textarea"],
+#workerspages .righteditprofile .workexperienceform .descriptionform textarea[type="textarea"],
+#recruiterspages .righteditprofile .editformwrapper .descriptionform textarea[type="textarea"],
+#recruiterspages .righteditprofile .workexperienceform .descriptionform textarea[type="textarea"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding: 0px 0px 50px 10px;
+    width: 100%;
+    height: 100px;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-image: none;
+    border-radius: 4px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .add-experience {
+    background-color: #ffffff;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    color: #FBB017;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    border: 1px solid #FBB017;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .add-experience:hover {
+    background-color: #FBB017;
+    color: #ffffffff;
+    border: 1px solid #ffaa00;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio {
+    display: block;
+    background-color: #ffffff;
+    width: 700px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .work-portfolio {
+    padding: 25px 0;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .work-portfolio .add-portfolio {
+    background-color: #ffffff;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    color: #FBB017;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    border: 1px solid #FBB017;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .add-portfolio:hover {
+    background-color: #FBB017;
+    color: #ffffffff;
+    border: 1px solid #ffaa00;
+}
+
+
+#workerspages .righteditprofile .portofolio .portofolioform input[type="text"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding: 7px 13px;
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: none;
+    border-radius: 4px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio {
+    padding: 10px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .title-portofolio,
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .title-portofolio {
+    font-weight: 500;
+    line-height: 16.34px;
+    color: #9EA0A5;
+    padding-bottom: 20px;
+}
+
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio label {
+    display: flex;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio p {
+    padding: 0px 30px;
+    font-weight: 600;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio input[type="radio"] {
+    display: none;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio .checkmark {
+    display: flex;
+    position: absolute;
+    margin-top: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio input[type="radio"]:checked+.checkmark::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio label:hover .checkmark {
+    border-color: purple;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper {
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image {
+    display: block;
+    border: 2px dashed #9EA0A5;
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .cloud {
+    padding: 50px 200px;
+    text-align: center;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .cloud h1 {
+    font-size: 20px;
+    text-wrap: nowrap;
+    position: relative;
+    right: 100px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .cloud p {
+    font-size: 16px;
+    text-wrap: nowrap;
+    position: relative;
+    right: 50px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .small-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 0px 50px 0px 0px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .small-img .resolution-image p {
+    width: 150px;
+    position: relative;
+    bottom: 40px;
+    left: 40px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .small-img .size-image p {
+    width: 150px;
+    position: relative;
+    bottom: 40px;
+    left: 40px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .portfolioContainer {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .portfolioContainer .portdata h4{
+    font-weight: 600;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .portfolioContainer .portdata h2{
+    color: #FBB017;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .portfolioContainer .portdata p{
+    font-weight: 600;
+    color: #46505C;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .portfolioContainer .portdata .deletebutton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 20px;
+    background-color: #c00505;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .portfolioContainer .portdata .deletebutton:hover {
+    background-color: #e20505;
+    box-shadow: 0 0 5px 1px rgba(248, 0, 0, 0.8);
+}
+
+#workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .portfolioContainer img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border: #FBB017 2px solid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+// FORM PERSONAL DATA INPUT STYLE
+#workerspages .righteditprofile .editformwrapper textarea,
+#workerspages .righteditprofile .editformwrapper input[type="text"],
+#workerspages .righteditprofile .editformwrapper input[type="password"],
+#workerspages .righteditprofile .editformwrapper input[type="datetime"],
+#workerspages .righteditprofile .editformwrapper input[type="daterange"],
+#workerspages .righteditprofile .editformwrapper input[type="datetime-local"],
+#workerspages .righteditprofile .editformwrapper input[type="date"],
+#workerspages .righteditprofile .editformwrapper input[type="month"],
+#workerspages .righteditprofile .editformwrapper input[type="time"],
+#workerspages .righteditprofile .editformwrapper input[type="week"],
+#workerspages .righteditprofile .editformwrapper input[type="number"],
+#workerspages .righteditprofile .editformwrapper input[type="email"],
+#workerspages .righteditprofile .editformwrapper input[type="url"],
+#workerspages .righteditprofile .editformwrapper input[type="search"],
+#workerspages .righteditprofile .editformwrapper input[type="tel"],
+#workerspages .righteditprofile .editformwrapper input[type="color"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding: 7px 13px;
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: none;
+    border-radius: 4px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+}
+
+// FORM PERSONAL DATA INPUT STYLE
+#recruiterspages .righteditprofile .editformwrapper textarea,
+#recruiterspages .righteditprofile .editformwrapper input[type="text"],
+#recruiterspages .righteditprofile .editformwrapper input[type="password"],
+#recruiterspages .righteditprofile .editformwrapper input[type="datetime"],
+#recruiterspages .righteditprofile .editformwrapper input[type="daterange"],
+#recruiterspages .righteditprofile .editformwrapper input[type="datetime-local"],
+#recruiterspages .righteditprofile .editformwrapper input[type="date"],
+#recruiterspages .righteditprofile .editformwrapper input[type="month"],
+#recruiterspages .righteditprofile .editformwrapper input[type="time"],
+#recruiterspages .righteditprofile .editformwrapper input[type="week"],
+#recruiterspages .righteditprofile .editformwrapper input[type="number"],
+#recruiterspages .righteditprofile .editformwrapper input[type="email"],
+#recruiterspages .righteditprofile .editformwrapper input[type="url"],
+#recruiterspages .righteditprofile .editformwrapper input[type="search"],
+#recruiterspages .righteditprofile .editformwrapper input[type="tel"],
+#recruiterspages .righteditprofile .editformwrapper input[type="color"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding: 7px 13px;
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: none;
+    border-radius: 4px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+}
+
+#workerspages .righteditprofile .editformwrapper textarea:hover,
+#workerspages .righteditprofile .editformwrapper input[type="text"]:hover,
+#workerspages .righteditprofile .editSkillprofile input[type="text"]:hover,
+#workerspages .righteditprofile .workexperienceform input[type="text"]:hover,
+#workerspages .righteditprofile .portofolio input[type="text"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="password"]:hover,
+#workerspages .righteditprofile .workexperienceform input[type="datetime"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="datetime"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="daterange"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="datetime-local"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="date"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="month"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="time"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="week"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="number"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="email"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="url"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="search"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="tel"]:hover,
+#workerspages .righteditprofile .editformwrapper input[type="color"]:hover {
+    border-color: #A0A0A0 !important;
+}
+
+#recruiterspages .righteditprofile .editformwrapper textarea:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="text"]:hover,
+#recruiterspages .righteditprofile .editSkillprofile input[type="text"]:hover,
+#recruiterspages .righteditprofile .workexperienceform input[type="text"]:hover,
+#recruiterspages .righteditprofile .portofolio input[type="text"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="password"]:hover,
+#recruiterspages .righteditprofile .workexperienceform input[type="datetime"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="datetime"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="daterange"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="datetime-local"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="date"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="month"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="time"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="week"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="number"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="email"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="url"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="search"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="tel"]:hover,
+#recruiterspages .righteditprofile .editformwrapper input[type="color"]:hover {
+    border-color: #A0A0A0 !important;
+}
+
+
+#workerspages .righteditprofile .editformwrapper textarea:focus,
+#workerspages .righteditprofile .editformwrapper input[type="text"]:focus,
+#workerspages .righteditprofile .editSkillprofile input[type="text"]:focus,
+#workerspages .righteditprofile .workexperienceform input[type="text"]:focus,
+#workerspages .righteditprofile .portofolio input[type="text"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="password"]:focus,
+#workerspages .righteditprofile .workexperienceform input[type="datetime"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="datetime"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="daterange"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="datetime-local"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="date"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="month"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="time"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="week"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="number"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="email"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="url"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="search"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="tel"]:focus,
+#workerspages .righteditprofile .editformwrapper input[type="color"]:focus {
+    border-color: #A0A0A0 !important;
+    background-color: #ffffff !important;
+    outline: none;
+}
+
+#recruiterspages .righteditprofile .editformwrapper textarea:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="text"]:focus,
+#recruiterspages .righteditprofile .editSkillprofile input[type="text"]:focus,
+#recruiterspages .righteditprofile .workexperienceform input[type="text"]:focus,
+#recruiterspages .righteditprofile .portofolio input[type="text"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="password"]:focus,
+#recruiterspages .righteditprofile .workexperienceform input[type="datetime"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="datetime"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="daterange"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="datetime-local"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="date"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="month"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="time"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="week"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="number"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="email"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="url"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="search"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="tel"]:focus,
+#recruiterspages .righteditprofile .editformwrapper input[type="color"]:focus {
+    border-color: #A0A0A0 !important;
+    background-color: #ffffff !important;
+    outline: none;
+}
+
+
+
+
+////////////////////////////////////////////////////////////
+
+//#recruiterspages
+
+// RECRUITERS PROFILE
+
+#recruiterspages .homecolor .recruiterscontainer {
+    display: flex;
+    width: 100%;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper {
+    width: 800px;
+    padding: 50px 0px;
+    margin: 0 auto;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglepurple {
+    display: flex;
+    justify-content: end;
+    background-color: #5E50A1;
+    width: 100%;
+    height: 150px;
+    border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -ms-border-radius: 4px 4px 0px 0px;
+    -o-border-radius: 4px 4px 0px 0px;
+}
+
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglepurple label {
+    color: #ffffff;
+    padding: 110px 20px 0 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglepurple label:hover {
+    color: #FBB017;
+    text-shadow: 0 0 5px rgba(255, 217, 0, 0.918);
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite {
+    background-color: #ffffff;
+    max-width: 100%;
+    height: 600px;
+    border-radius: 0px 0px 4px 4px;
+    -webkit-border-radius: 0px 0px 4px 4px;
+    -moz-border-radius: 0px 0px 4px 4px;
+    -ms-border-radius: 0px 0px 4px 4px;
+    -o-border-radius: 0px 0px 4px 4px;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .imageprofilerecruiter {
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    justify-content: center;
+    z-index: 0;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .imageprofilerecruiter img {
+    width: 150px;
+    height: 150px;
+    border: #FBB017 3px solid;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .RecruitersProfile {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .RecruitersProfile .citycontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .RecruitersProfile .citycontainer img{
+    width: 20px;
+    height: 20px;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .RecruitersProfile h3 {
+    font-weight: 600;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .RecruitersProfile h2 {
+    padding: 5px 0;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .RecruitersProfile p {
+    color: #9EA0A5;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .recruiterdata {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .recruiterdata .editRecruiterButton {
+    display: flex;
+    position: relative;
+    width: 40%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #5E50A1;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .socialmedia {
+    display: grid;
+    justify-content: center;
+    gap: 5px
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .socialmedia .subsocialmedia {
+    position: relative;
+    bottom: 40px;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .socialmedia .subsocialmedia img {
+    width: 28px;
+    height: 28px;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .socialmedia .subsocialmedia p {
+    color: #9EA0A5;
+}
+
+#recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite .socialmedia .subsocialmedia .iconsocialmedia {
+    display: flex;
+    gap: 5px;
+}
+
+//EDIT PROFILE RECRUITERS
+
+#recruiterspages .homecolor.bgedit {
+    width: 100%;
+    height: 1100px;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground {
+    display: flex;
+    background-color: #5E50A1;
+    width: 100%;
+    height: 300px;
+    padding: 50px 150px;
+    justify-content: space-between;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile {
+    display: flex;
+    width: 100%;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper {
+    background-color: #ffffff;
+    width: 300px;
+    height: 300px;
+    padding: 20px 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .profiledata {
+    padding: 20px;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .profiledata h3 {
+    font-weight: 600;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .profiledata p {
+    color: #9EA0A5;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .profiledata .recruiterdomicile {
+    display: flex;
+    gap: 5px;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .profiledata .recruiterdomicile img{
+    width: 20px;
+    height: 20px;
+}
+
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editcontainer {
+    padding: 10px 0;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editcontainer .Savebutton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #5E50A1;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editcontainer .Savebutton:hover {
+    background-color: #352381;
+    box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editcontainer .Cancelbutton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #5E50A1;
+    border: #5E50A1 2px solid;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editcontainer .Cancelbutton:hover {
+    background-color: #352381;
+    color: #E2E5ED;
+    box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .imageprofile {
+    display: flex;
+    justify-content: center;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .imageprofile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: #5E50A1 5px solid;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper .editprofile {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile {
+    display: flex;
+    width: 100%;
+}
+
+#recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper {
+    background-color: #ffffff;
+    width: 700px;
+    height: 800px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}

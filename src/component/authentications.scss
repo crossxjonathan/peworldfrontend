@@ -1,0 +1,286 @@
+//////////////////////////////////////////////////////////////////////////
+// AUTHENTICATION WRAPPER
+#mainauthentication {
+    width: 100%;
+    min-height: 100%;
+}
+
+#mainauthentication .authWrapper {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 125px 60px 60px;
+}
+
+//////////////////////////////////////////////////////////////////////////
+// AUTHENTICATION LEFT PAGE
+#mainauthentication .leftWrapper {
+    flex: 1;
+    float: left;
+    width: 50%;
+    background-image: url('../assets/images/thumbnail_group2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+}
+
+#mainauthentication .leftWrapper::after {
+    content: "";
+    background-color: rgba(25, 25, 112, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+}
+
+#mainauthentication .leftWrapper .pagecontainer {
+    width: 100%;
+}
+
+#mainauthentication .leftWrapper .pagecontainer .logo {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    z-index: 1;
+}
+
+#mainauthentication .leftWrapper .pagecontainer .logo img {
+    object-fit: cover;
+}
+
+#mainauthentication .leftWrapper .pagecontainer h1 {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 70px;
+    z-index: 1;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+//////////////////////////////////////////////////////////////////////////
+// AUTHENTICATION INPUT STYLE
+#mainauthentication .rightWrapper .innerWrapper textarea,
+#mainauthentication .rightWrapper .innerWrapper input[type="text"],
+#mainauthentication .rightWrapper .innerWrapper input[type="password"],
+#mainauthentication .rightWrapper .innerWrapper input[type="datetime"],
+#mainauthentication .rightWrapper .innerWrapper input[type="daterange"],
+#mainauthentication .rightWrapper .innerWrapper input[type="datetime-local"],
+#mainauthentication .rightWrapper .innerWrapper input[type="date"],
+#mainauthentication .rightWrapper .innerWrapper input[type="month"],
+#mainauthentication .rightWrapper .innerWrapper input[type="time"],
+#mainauthentication .rightWrapper .innerWrapper input[type="week"],
+#mainauthentication .rightWrapper .innerWrapper input[type="number"],
+#mainauthentication .rightWrapper .innerWrapper input[type="email"],
+#mainauthentication .rightWrapper .innerWrapper input[type="url"],
+#mainauthentication .rightWrapper .innerWrapper input[type="search"],
+#mainauthentication .rightWrapper .innerWrapper input[type="tel"],
+#mainauthentication .rightWrapper .innerWrapper input[type="color"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding: 7px 13px;
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: none;
+    border-radius: 4px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+}
+
+#mainauthentication .rightWrapper .innerWrapper textarea:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="text"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="password"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="datetime"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="daterange"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="datetime-local"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="date"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="month"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="time"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="week"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="number"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="email"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="url"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="search"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="tel"]:hover,
+#mainauthentication .rightWrapper .innerWrapper input[type="color"]:hover {
+    border-color: #A0A0A0 !important;
+}
+
+#mainauthentication .rightWrapper .innerWrapper textarea:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="text"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="password"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="datetime"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="daterange"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="datetime-local"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="date"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="month"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="time"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="week"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="number"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="email"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="url"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="search"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="tel"]:focus,
+#mainauthentication .rightWrapper .innerWrapper input[type="color"]:focus {
+    border-color: #A0A0A0 !important;
+    background-color: #ffffff !important;
+    outline: none;
+}
+
+//////////////////////////////////////////////////////////////////////////
+// LOGIN
+#mainauthentication .rightWrapper {
+    float: left;
+    width: 50%;
+    flex: 1;
+    background-color: #fafafa;
+    height: 700px;
+}
+
+#mainauthentication .rightWrapper .innerWrapper#login {
+    padding: 100px 50px 40px 50px;
+}
+
+#mainauthentication .rightWrapper .innerWrapper#login .formGroup {
+    margin-bottom: 35px;
+}
+
+#mainauthentication .rightWrapper .innerWrapper .formGroup h6 {
+    color: #A0A0A0;
+}
+
+#mainauthentication .rightWrapper .innerWrapper .description p {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #46505C;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#mainauthentication .rightWrapper .innerWrapper .forgetButton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: row-reverse;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#mainauthentication .rightWrapper .innerWrapper .submitButton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    background-color: #FBB017;
+    color: #ffffff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#mainauthentication .rightWrapper .innerWrapper .urlButton {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+
+#mainauthentication .rightWrapper .innerWrapper .urlButton p {
+    font-size: 14px;
+}
+
+#mainauthentication .rightWrapper .innerWrapper .urlButton span {
+    color: #FBB017;
+}
+
+#mainauthentication .rightWrapper .innerWrapper .urlButton span:hover {
+    cursor: pointer;
+}
+
+//////////////////////////////////////////////////////////////////////////
+// REGISTER
+#mainauthentication .rightWrapper .innerWrapper#register{
+    padding: 40px 50px 40px 50px;
+}
+
+#mainauthentication .rightWrapper .innerWrapper#register .formGroup {
+    margin-bottom: 20px;
+}
+
+//////////////////////////////////////////////////////////////////////////
+// RESPONSIVE
+@media (max-width: 767.98px) {
+    #mainauthentication .authWrapper {
+        width: 100% !important;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #mainauthentication .leftWrapper {
+        height: 500px;
+    }
+
+    #mainauthentication .leftWrapper,
+    #mainauthentication .rightWrapper {
+        width: 100%;
+    }
+
+    #mainauthentication .leftWrapper .pagecontainer .logo {
+        left: 20px;
+    }
+
+    #mainauthentication .leftWrapper .pagecontainer h1 {
+        top: 160px;
+        left: 20px;
+        font-weight: 700;
+        font-size: 37px;
+    }
+}
+
+@media (min-width: 767.99px) and (max-width: 835.98px) {
+    #mainauthentication.authWrapper {
+        width: 750px !important;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media (min-width: 835.99px) and (max-width: 1023.98px) {
+    #mainauthentication.authWrapper {
+        width: 1000px !important;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279.98px) {
+    #mainauthentication.authWrapper {
+        width: 960px !important;
+        margin: 0 auto;
+        padding: 0;
+    }
+}

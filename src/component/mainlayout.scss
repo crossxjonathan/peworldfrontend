@@ -1,0 +1,223 @@
+// #mainwebsite
+
+//////////////////////////////////////////////////////////////////////////
+// HEADER
+#mainwebsite header {
+    height: 70px;
+    width: 100%;
+}
+
+#mainwebsite .headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#mainwebsite .headerWrapper .websitelogo,
+#mainwebsite .headerWrapper .websitenav {
+    display: flex;
+    align-items: center;
+}
+
+#mainwebsite .headerWrapper .websitenav .loginbutton {
+    margin-right: 30px;
+    font-weight: 700;
+    color: #5E50A1;
+}
+
+#mainwebsite .headerWrapper .websitenav .loginbutton:hover {
+    background-color: #5E50A1;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#mainwebsite .headerWrapper .websitenav .registerbutton {
+    background-color: #5E50A1;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#mainwebsite .headerWrapper .websitenav .registerbutton:hover {
+    background-color: #ffffff;
+    color: #5E50A1;
+    cursor: pointer;
+}
+
+#mainwebsite .headerWrapper .websitenav .loginbutton,
+#mainwebsite .headerWrapper .websitenav .registerbutton {
+    padding: 8px 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border: 1px solid #5E50A1;
+}
+
+
+//////////////////////////////////////////////////////////////////////////
+
+// MAIN HEADER
+#pagewebsite header {
+    height: 20px;
+    width: 100%;
+}
+
+#pagewebsite .mainHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#pagewebsite .mainHeaderWrapper .mainwebsitelogo,
+#pagewebsite .mainHeaderWrapper .mainwebsitenav {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+#pagewebsite .mainHeaderWrapper .mainwebsitenav {
+    // margin-right: 30px;
+    font-weight: 700;
+    color: #5E50A1;
+    cursor: pointer;
+}
+
+#pagewebsite .mainHeaderWrapper .mainwebsitenav .notification,
+#pagewebsite .mainHeaderWrapper .mainwebsitenav .home,
+#pagewebsite .mainHeaderWrapper .mainwebsitenav .profile,
+#pagewebsite .mainHeaderWrapper .mainwebsitenav .logout {
+    padding: 8px 30px;
+}
+
+#pagewebsite .mainHeaderWrapper .mainwebsitenav .profile img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 4px;
+    cursor: pointer;
+    border: #5E50A1 1px solid;
+    object-fit: cover;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+// FOOTER
+
+#mainwebsite .footercolor,
+#pagewebsite .footercolor {
+    width: 100%;
+    background-color: #5E50A1;
+}
+
+#mainwebsite footer,
+#pagewebsite footer {
+    // height: 70px;
+    width: 100%;
+}
+
+#mainwebsite .footerwrapper,
+#pagewebsite .footerwrapper {
+    // display: flex;
+    // justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#mainwebsite .footerwrapper .footerlogo, 
+#pagewebsite .footerwrapper .footerlogo{
+    padding: 50px 100px;
+}
+
+#mainwebsite .footerwrapper .footerinfo p,
+#pagewebsite .footerwrapper .footerinfo p {
+    width: 500px;
+    padding: 0px 0px 30px 100px;
+    color: #ffffff;
+}
+
+#mainwebsite .footerwrapper hr, 
+#pagewebsite .footerwrapper hr {
+    width: 84%;
+    border: none;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+#mainwebsite .footerwrapper .footercopyright p,
+#pagewebsite .footerwrapper .footercopyright p {
+    padding: 20px 0px 0px 100px;
+    color: #ffffff;
+}
+
+#mainwebsite .footerwrapper .footercontactus,
+#pagewebsite .footerwrapper .footercontactus {
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    gap: 50px;
+    justify-content: end;
+    bottom: 40px;
+    right: 100px;
+}
+
+//////////////////////////////////////////////////////////////////////////
+// RESPONSIVE
+@media (max-width: 767.98px) {
+    #mainwebsite .headerWrapper {
+        width: 340px;
+    }
+
+    #mainwebsite .headerWrapper .websitenav .loginbutton {
+        margin-right: 10px;
+    }
+
+    #mainwebsite .headerWrapper .websitenav .loginbutton,
+    #mainwebsite .headerWrapper .websitenav .registerbutton {
+        padding: 5px 10px;
+    }
+
+
+    #mainwebsite .footerwrapper .footercopyright p,
+    #pagewebsite .footerwrapper .footercopyright p{
+        padding: 20px 0px 20px 100px;
+    }
+
+    #mainwebsite .footerwrapper .footercontactus,
+    #pagewebsite .footerwrapper .footercontactus {
+        display: none;
+    }
+    
+}
+
+// @media (min-width: 767.99px) and (max-width: 835.98px) {
+//     #mainauthentication.authWrapper {
+//         width: 750px !important;
+//         margin: 0 auto;
+//         padding: 0;
+//     }
+// }
+
+// @media (min-width: 835.99px) and (max-width: 1023.98px) {
+//     #mainauthentication.authWrapper {
+//         width: 1000px !important;
+//         margin: 0 auto;
+//         padding: 0;
+//     }
+// }
+
+// @media (min-width: 1024px) and (max-width: 1279.98px) {
+//     #mainauthentication.authWrapper {
+//         width: 960px !important;
+//         margin: 0 auto;
+//         padding: 0;
+//     }
+// }

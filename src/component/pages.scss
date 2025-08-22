@@ -1,0 +1,882 @@
+// //#workerspages #recruiterspages
+
+// #workerspages, #recruiterspages {
+//     width: 100%;
+// }
+
+// #workerspages section,
+// #recruiterspages section {
+//     margin-top: 40px;
+//     // margin-bottom: 40px;
+// }
+
+// #workerspages .homecolor,
+// #recruiterspages .homecolor {
+//     background-color: #F6F7F8;
+//     width: 100%;
+// }
+
+// #workerspages .containerHome,
+// #recruiterspages .containerHome {
+//     display: flex;
+//     padding: 20px 0px 0px 0px;
+//     justify-content: center;
+// }
+
+// //SEARCH HOME PROFILE WORKER
+
+// #workerspages .containerHome .searchwrapper,
+// #recruiterspages .containerHome .searchwrapper {
+//     -webkit-box-sizing: border-box;
+//     display: flex;
+//     justify-content: space-between;
+//     box-sizing: border-box;
+//     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+//     width: 1000px;
+//     padding: 10px 0px 10px 0px;
+//     background-color: #ffffff;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .containerHome .searchwrapper .searchinput input{
+//     width: 700px;
+//     padding: 13px 10px 13px 20px;
+//     color: #9EA0A5;
+//     font-weight: 500;
+//     font-size: 16px;
+//     margin: 0px 0px 0px 20px;
+//     border: none;
+// }
+
+// #workerspages .containerHome .searchwrapper .searchright {
+//     display: flex;
+//     padding: 0px 30px 0px 0px;    
+// }
+
+// #workerspages .containerHome .searchwrapper .searchright .searchicon{
+//     padding: 10px 10px 0px 0px;
+// }
+
+// //CATEGORY DROPDOWN
+
+// #workerspages .containerHome .searchwrapper .searchright .category {
+//     padding: 10px 30px 0px 20px;
+//     color: #9EA0A5;
+//     font-weight: 500;
+//     font-size: 16px;
+//     border: none;
+//     cursor: pointer;
+// }
+
+// #workerspages .containerHome .searchwrapper .searchright .category .subcategory{
+//     position: relative;
+//     display: inline-block;
+//     right: 80px;
+//     top: 10px;
+// }
+
+// #workerspages .containerHome .searchwrapper .searchright .category .subcategory .subcategorycontent{
+//     display: none;
+//     position: absolute;
+//     background-color: #3b279e;
+//     min-width: 100px;
+//     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+//     z-index: 1;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .containerHome .searchwrapper .searchright .category:hover .subcategory .subcategorycontent {
+//     display: block;
+// }
+
+
+// #workerspages .containerHome .searchwrapper .searchright .category .subcategory .subcategorycontent a{
+//     color: #ffffff;
+//     padding: 12px 16px;
+//     text-decoration: none;
+//     display: block;
+//     font-weight: 500;
+//     font-size: 14px;
+// }
+
+// #workerspages .containerHome .searchwrapper .searchright .category .subcategory .subcategorycontent a:hover{
+//     background-color: #1f154e;
+//     box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+// }
+
+// #workerspages .containerHome .searchwrapper .searchright .searchbutton {
+//     background-color: #5E50A1;
+//     border: none;
+//     color: white;
+//     font-weight: 500;
+//     padding: 10px 20px 10px 20px;
+//     text-align: center;
+//     text-decoration: none;
+//     display: inline-block;
+//     font-size: 16px;
+//     cursor: pointer;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .containerHome .searchwrapper .searchright .searchbutton:hover {
+//     background-color: #3b279e;
+//     box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+// }
+
+// //TABLE HOME PROFILE
+// #workerspages .containerHome .tablewrapper,
+// #recruiterspages .containerHome .tablewrapper {
+//     box-sizing: border-box;
+//     width: 1000px;
+//     height: 800px;
+//     background-color: #ffffff;
+//     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+//     padding: 50px 20px 50px 20px;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .containerHome .tablewrapper .tableprofile,
+// #recruiterspages .containerHome .tablewrapper .tableprofile{
+//     display: flex;
+//     justify-content: space-between;
+//     padding: 0px 0px 100px 0px;
+// }
+
+
+// #workerspages .containerHome .tablewrapper .tableprofile .lefttable,
+// #recruiterspages .containerHome .tablewrapper .tableprofile .lefttable{
+//     display: flex;
+// }
+
+// #workerspages .containerHome .tablewrapper .tableprofile .lefttable .profilecontent,
+// #recruiterspages .containerHome .tablewrapper .tableprofile .lefttable .profilecontent{
+//     display: flex;
+//     flex-direction: column;
+//     padding: 0px 20px 0px 20px;
+// }
+
+// #workerspages .containerHome .tablewrapper .tableprofile .righttable,
+// #recruiterspages .containerHome .tablewrapper .tableprofile .righttable{
+//     background-color: #5E50A1;
+//     padding: 15px 20px 15px 20px;
+//     height: 50px;
+//     color: #ffffff;
+//     cursor: pointer;
+//     font-weight: 500;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .containerHome .tablewrapper .tableprofile .righttable:hover,
+// #recruiterspages .containerHome .tablewrapper .tableprofile .righttable:hover{
+//     background-color: #3b279e;
+//     box-shadow: 0 0 5px 1px rgba(59, 39, 158, 0.8);
+// }
+
+// #workerspages .pagination,
+// #recruiterspages .pagination {
+//     display: flex;
+//     justify-content: center;
+//     width: 100%;
+//     padding: 50px 0px 50px 0px;
+// }
+
+// #workerspages .pagination a,
+// #recruiterspages .pagination a{
+//     color: #E2E5ED;
+//     float: left;
+//     padding: 8px 16px;
+//     text-decoration: none;
+//     transition: background-color .3s;
+//     background-color: #ffffff;
+//     border: 1px solid #ddd;
+//     margin: 0 4px;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .pagination a.active,
+// #recruiterspages .pagination a.active{
+//     background-color: #5E50A1;
+//     color: #E2E5ED;
+//     border: 1px solid #5E50A1;
+// }
+
+// #workerspages .pagination a:hover:not(.active),
+// #recruiterspages .pagination a:hover:not(.active) {
+//     background-color: #5E50A1;
+// }
+
+// // PORTOFOLIO PROFILE
+// #workerspages .homecolor.bgportofolio  {
+//     width: 100%;
+//     height: 700px;
+// }
+
+// #workerspages .homecolor.bgportofolio .purplebackground {
+//     background-color: #5E50A1;
+//     width: 100%;
+//     height: 300px;
+//     padding: 50px 150px;
+// }
+
+// #workerspages .homecolor.bgportofolio .purplebackground .portofoliocontainer{
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// #workerspages .homecolor.bgportofolio .purplebackground .profilewrapper {
+//     background-color: #ffffff;
+//     width: 300px;
+//     height: 500px;
+//     margin-right: 10px;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .homecolor.bgportofolio .purplebackground .portofoliowrapper {
+//     background-color: #ffffff;
+//     width: 700px;
+//     height: 300px;
+//     margin-left: 10px;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// // WORKERS PROFILE
+// #workerspages .homecolor .workerscontainer {
+//     display: flex;
+//     width: 100%;
+// }
+
+// #workerspages .homecolor .workerscontainer .workerswrapper {
+//     width: 800px;
+//     padding: 50px 0px;
+//     margin: 0 auto;
+// }
+
+// #workerspages .homecolor .workerscontainer .workerswrapper .rectanglepurple{
+//     background-color: #5E50A1;
+//     width: 100%;
+//     height: 150px;
+//     border-radius: 4px 4px 0px 0px;
+//     -webkit-border-radius: 4px 4px 0px 0px;
+//     -moz-border-radius: 4px 4px 0px 0px;
+//     -ms-border-radius: 4px 4px 0px 0px;
+//     -o-border-radius: 4px 4px 0px 0px;
+// }
+
+// #workerspages .homecolor .workerscontainer .workerswrapper .rectanglewhite{
+//     background-color: #ffffff;
+//     max-width: 100%;
+//     height: 700px;
+//     border-radius: 0px 0px 4px 4px;
+//     -webkit-border-radius: 0px 0px 4px 4px;
+//     -moz-border-radius: 0px 0px 4px 4px;
+//     -ms-border-radius: 0px 0px 4px 4px;
+//     -o-border-radius: 0px 0px 4px 4px;
+// }
+
+
+// // EDIT PROFILE WORKERS
+
+// #workerspages .homecolor.bgedit  {
+//     width: 100%;
+//     height: 2200px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground {
+//     display: flex;
+//     background-color: #5E50A1;
+//     width: 100%;
+//     height: 300px;
+//     padding: 50px 150px;
+//     justify-content: space-between;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .lefteditprofile {
+//     display: block;
+//     width: 100%;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper {
+//     background-color: #ffffff;
+//     width: 300px;
+//     height: 300px;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile {
+//     display: block;
+//     width: 100%;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper {
+//     background-color: #ffffff;
+//     width: 700px;
+//     height: 600px;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper .title-form,
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .title-form,
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .title-form {
+//     font-weight: 500;
+//     font-size: 20px;
+//     padding: 20px 0px 10px 20px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper hr,
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile hr,
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience hr,
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio hr {
+//     width: 100%;
+//     border: none;
+//     height: 1px;
+//     background-color: #C4C4C4;
+// }
+
+
+// #workerspages .righteditprofile .editformwrapper .formGroup,
+// #workerspages .righteditprofile .editSkillprofile .formGroup,
+// #workerspages .righteditprofile .workexperienceform .formGroup,
+// #workerspages .righteditprofile .portofolio .formGroup {
+//     margin-bottom: 10px;
+//     padding: 10px 10px;
+// }
+
+// #workerspages .righteditprofile .editformwrapper .formGroup h6,
+// #workerspages .righteditprofile .editSkillprofile .formGroup h6,
+// #workerspages .righteditprofile .work-experience .formGroup h6,
+// #workerspages .righteditprofile .portofolio .formGroup h6 {
+//     color: #A0A0A0;
+// }
+
+// // EDIT SKILL PROFILE
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile {
+//     display: block;
+//     background-color: #ffffff;
+//     width: 700px;
+//     height: 150px;
+//     margin: 20px 0px;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile .skillContainer {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile .title-skill {
+//     font-weight: 500;
+//     font-size: 20px;
+//     padding: 20px 0px 10px 20px;
+// }
+
+// #workerspages .righteditprofile .editSkillprofile input[type="text"] {
+//     -webkit-box-sizing: border-box;
+//     box-sizing: border-box;
+//     margin: 0;
+//     list-style: none;
+//     position: relative;
+//     padding: 7px 13px;
+//     width: 550px;
+//     height: 35px;
+//     font-size: 15px;
+//     line-height: 1.5;
+//     background-image: none;
+//     border-radius: 4px;
+//     color: #1a1a1a;
+//     background-color: #ffffff;
+//     border: 1px solid #d3d3d3;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile .skill-button {
+//     background-color: #FBB017;
+//     margin-top: 10px;
+//     width: 100%;
+//     height: 50px;
+//     color: #ffffff;
+//     font-weight: 700;
+//     padding: 13px 40px;
+//     cursor: pointer;
+//     border: 1px solid #ffffff;
+//     border-radius: 6px;
+//     -webkit-border-radius: 6px;
+//     -moz-border-radius: 6px;
+//     -ms-border-radius: 6px;
+//     -o-border-radius: 6px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .editSkillprofile .skill-button:hover {
+//     background-color: #ffffff;
+//     color: #FBB017;
+//     border: 1px solid #FBB017;
+// }
+
+// // FORM WORK EXPERIENCE INPUT
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience {
+//     display: block;
+//     background-color: #ffffff;
+//     width: 700px;
+//     height: 500px;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .righteditprofile .work-experience input[type="text"] {
+//     -webkit-box-sizing: border-box;
+//     box-sizing: border-box;
+//     margin: 0;
+//     list-style: none;
+//     position: relative;
+//     padding: 7px 13px;
+//     width: 100%;
+//     height: 35px;
+//     font-size: 15px;
+//     line-height: 1.5;
+//     background-image: none;
+//     border-radius: 4px;
+//     color: #1a1a1a;
+//     background-color: #ffffff;
+//     border: 1px solid #d3d3d3;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .companyform {
+//     display: flex;
+// }
+
+// #workerspages .righteditprofile .work-experience .companyform input[type="text"] {
+//     -webkit-box-sizing: border-box;
+//     box-sizing: border-box;
+//     margin: 0;
+//     list-style: none;
+//     position: relative;
+//     padding: 7px 13px;
+//     width: 330px;
+//     height: 35px;
+//     font-size: 15px;
+//     line-height: 1.5;
+//     background-image: none;
+//     border-radius: 4px;
+//     color: #1a1a1a;
+//     background-color: #ffffff;
+//     border: 1px solid #d3d3d3;
+// }
+
+// #workerspages .righteditprofile .work-experience .companyform input[type="datetime"] {
+//     -webkit-box-sizing: border-box;
+//     box-sizing: border-box;
+//     margin: 0;
+//     list-style: none;
+//     position: relative;
+//     padding: 7px 13px;
+//     width: 330px;
+//     height: 35px;
+//     font-size: 15px;
+//     line-height: 1.5;
+//     background-image: none;
+//     border-radius: 4px;
+//     color: #1a1a1a;
+//     background-color: #ffffff;
+//     border: 1px solid #d3d3d3;
+// }
+
+// #workerspages .righteditprofile .editformwrapper .descriptionform input[type="text"],
+// #workerspages .righteditprofile .workexperienceform .descriptionform input[type="text"] {
+//     -webkit-box-sizing: border-box;
+//     box-sizing: border-box;
+//     margin: 0;
+//     list-style: none;
+//     position: relative;
+//     padding: 0px 0px 50px 10px;
+//     width: 100%;
+//     height: 100px;
+//     font-size: 15px;
+//     line-height: 1.5;
+//     background-image: none;
+//     border-radius: 4px;
+//     color: #1a1a1a;
+//     background-color: #ffffff;
+//     border: 1px solid #d3d3d3;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .add-experience {
+//     background-color: #ffffff;
+//     margin-top: 10px;
+//     width: 100%;
+//     height: 50px;
+//     color: #FBB017;
+//     font-weight: 700;
+//     text-align: center;
+//     padding-top: 10px;
+//     cursor: pointer;
+//     border: 1px solid #FBB017;
+//     border-radius: 6px;
+//     -webkit-border-radius: 6px;
+//     -moz-border-radius: 6px;
+//     -ms-border-radius: 6px;
+//     -o-border-radius: 6px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .work-experience .add-experience:hover {
+//     background-color: #FBB017;
+//     color: #ffffffff;
+//     border: 1px solid #ffaa00;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio {
+//     display: block;
+//     background-color: #ffffff;
+//     width: 700px;
+//     height: 800px;
+//     margin-top: 20px;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #workerspages .righteditprofile .portofolio .portofolioform input[type="text"] {
+//     -webkit-box-sizing: border-box;
+//     box-sizing: border-box;
+//     margin: 0;
+//     list-style: none;
+//     position: relative;
+//     padding: 7px 13px;
+//     width: 100%;
+//     height: 35px;
+//     font-size: 15px;
+//     line-height: 1.5;
+//     background-image: none;
+//     border-radius: 4px;
+//     color: #1a1a1a;
+//     background-color: #ffffff;
+//     border: 1px solid #d3d3d3;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio {
+//     padding: 10px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .title-portofolio,
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .title-portofolio {
+//     font-weight: 500;
+//     line-height: 16.34px;
+//     color: #9EA0A5;
+//     padding-bottom: 20px;
+// }
+
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio label {
+//     display: flex;
+//     cursor: pointer;
+//     display: inline-block;
+//     margin-right: 50px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio p {
+//     padding: 0px 30px;
+//     font-weight: 600;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio input[type="radio"] {
+//     display: none;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio .checkmark {
+//     display: flex;
+//     position: absolute;
+//     margin-top: 10px;
+//     transform: translateY(-50%);
+//     width: 20px;
+//     height: 20px;
+//     border: 2px solid #000;
+//     border-radius: 50%;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio input[type="radio"]:checked+.checkmark::after {
+//     content: '';
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     width: 12px;
+//     height: 12px;
+//     background-color: purple;
+//     border-radius: 50%;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .type-portofolio .portofolio-radio label:hover .checkmark {
+//     border-color: purple;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper {
+//     display: block;
+//     padding: 0px 20px 0px 20px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image {
+//     display: block;
+//     border: 2px dashed #9EA0A5;
+//     width: 100%;
+//     height: 400px;
+//     cursor: pointer;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .cloud {
+//     padding: 50px 200px;
+//     text-align: center;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .cloud h1{
+//     font-size: 20px;
+//     text-wrap: nowrap;
+//     position: relative;
+//     right: 100px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .cloud p{
+//     font-size: 16px;
+//     text-wrap: nowrap;
+//     position: relative;
+//     right: 50px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .small-img{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     gap: 50px;
+//     padding: 0px 50px 0px 0px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .small-img .resolution-image p{
+//     width: 150px;
+//     position: relative;
+//     bottom: 40px;
+//     left: 40px;
+// }
+
+// #workerspages .homecolor.bgedit .purplebackground .righteditprofile .portofolio .uploadwrapper .upload-image .small-img .size-image p{
+//     width: 150px;
+//     position: relative;
+//     bottom: 40px;
+//     left: 40px;
+// }
+
+
+// // FORM PERSONAL DATA INPUT STYLE
+// #workerspages .righteditprofile .editformwrapper textarea,
+// #workerspages .righteditprofile .editformwrapper input[type="text"],
+// #workerspages .righteditprofile .editformwrapper input[type="password"],
+// #workerspages .righteditprofile .editformwrapper input[type="datetime"],
+// #workerspages .righteditprofile .editformwrapper input[type="daterange"],
+// #workerspages .righteditprofile .editformwrapper input[type="datetime-local"],
+// #workerspages .righteditprofile .editformwrapper input[type="date"],
+// #workerspages .righteditprofile .editformwrapper input[type="month"],
+// #workerspages .righteditprofile .editformwrapper input[type="time"],
+// #workerspages .righteditprofile .editformwrapper input[type="week"],
+// #workerspages .righteditprofile .editformwrapper input[type="number"],
+// #workerspages .righteditprofile .editformwrapper input[type="email"],
+// #workerspages .righteditprofile .editformwrapper input[type="url"],
+// #workerspages .righteditprofile .editformwrapper input[type="search"],
+// #workerspages .righteditprofile .editformwrapper input[type="tel"],
+// #workerspages .righteditprofile .editformwrapper input[type="color"] {
+//     -webkit-box-sizing: border-box;
+//     box-sizing: border-box;
+//     margin: 0;
+//     list-style: none;
+//     position: relative;
+//     padding: 7px 13px;
+//     width: 100%;
+//     height: 35px;
+//     font-size: 15px;
+//     line-height: 1.5;
+//     background-image: none;
+//     border-radius: 4px;
+//     color: #1a1a1a;
+//     background-color: #ffffff;
+//     border: 1px solid #d3d3d3;
+// }
+
+// #workerspages .righteditprofile .editformwrapper textarea:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="text"]:hover,
+// #workerspages .righteditprofile .editSkillprofile input[type="text"]:hover,
+// #workerspages .righteditprofile .workexperienceform input[type="text"]:hover,
+// #workerspages .righteditprofile .portofolio input[type="text"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="password"]:hover,
+// #workerspages .righteditprofile .workexperienceform input[type="datetime"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="datetime"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="daterange"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="datetime-local"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="date"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="month"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="time"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="week"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="number"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="email"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="url"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="search"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="tel"]:hover,
+// #workerspages .righteditprofile .editformwrapper input[type="color"]:hover {
+//     border-color: #A0A0A0 !important;
+// }
+
+// #workerspages .righteditprofile .editformwrapper textarea:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="text"]:focus,
+// #workerspages .righteditprofile .editSkillprofile input[type="text"]:focus,
+// #workerspages .righteditprofile .workexperienceform input[type="text"]:focus,
+// #workerspages .righteditprofile .portofolio input[type="text"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="password"]:focus,
+// #workerspages .righteditprofile .workexperienceform input[type="datetime"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="datetime"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="daterange"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="datetime-local"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="date"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="month"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="time"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="week"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="number"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="email"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="url"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="search"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="tel"]:focus,
+// #workerspages .righteditprofile .editformwrapper input[type="color"]:focus {
+//     border-color: #A0A0A0 !important;
+//     background-color: #ffffff !important;
+//     outline: none;
+// }
+
+
+// ////////////////////////////////////////////////////////////
+
+// //#recruiterspages
+
+// // RECRUITERS PROFILE
+
+// #recruiterspages .homecolor .recruiterscontainer {
+//     display: flex;
+//     width: 100%;
+// }
+
+// #recruiterspages .homecolor .recruiterscontainer .recruiterswrapper {
+//     width: 800px;
+//     padding: 50px 0px;
+//     margin: 0 auto;
+// }
+
+// #recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglepurple{
+//     background-color: #5E50A1;
+//     width: 100%;
+//     height: 150px;
+//     border-radius: 4px 4px 0px 0px;
+//     -webkit-border-radius: 4px 4px 0px 0px;
+//     -moz-border-radius: 4px 4px 0px 0px;
+//     -ms-border-radius: 4px 4px 0px 0px;
+//     -o-border-radius: 4px 4px 0px 0px;
+// }
+
+// #recruiterspages .homecolor .recruiterscontainer .recruiterswrapper .rectanglewhite{
+//     background-color: #ffffff;
+//     max-width: 100%;
+//     height: 400px;
+//     border-radius: 0px 0px 4px 4px;
+//     -webkit-border-radius: 0px 0px 4px 4px;
+//     -moz-border-radius: 0px 0px 4px 4px;
+//     -ms-border-radius: 0px 0px 4px 4px;
+//     -o-border-radius: 0px 0px 4px 4px;
+// }
+
+// //EDIT PROFILE RECRUITERS
+
+// #recruiterspages .homecolor.bgedit  {
+//     width: 100%;
+//     height: 800px;
+// }
+
+// #recruiterspages .homecolor.bgedit .purplebackground {
+//     display: flex;
+//     background-color: #5E50A1;
+//     width: 100%;
+//     height: 300px;
+//     padding: 50px 150px;
+//     justify-content: space-between;
+// }
+
+// #recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile {
+//     display: flex;
+//     width: 100%;
+// }
+
+// #recruiterspages .homecolor.bgedit .purplebackground .lefteditprofile .editprofilewrapper {
+//     background-color: #ffffff;
+//     width: 300px;
+//     height: 300px;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }
+
+// #recruiterspages .homecolor.bgedit .purplebackground .righteditprofile {
+//     display: flex;
+//     width: 100%;
+// }
+
+// #recruiterspages .homecolor.bgedit .purplebackground .righteditprofile .editformwrapper {
+//     background-color: #ffffff;
+//     width: 700px;
+//     height: 700px;
+//     border-radius: 4px;
+//     -webkit-border-radius: 4px;
+//     -moz-border-radius: 4px;
+//     -ms-border-radius: 4px;
+//     -o-border-radius: 4px;
+// }

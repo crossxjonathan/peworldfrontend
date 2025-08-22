@@ -1,0 +1,315 @@
+// #landingpage
+
+#landingpage {
+    width: 100%;
+}
+
+#landingpage section {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+#landingpage .colorContainer {
+    background-color: #FAFBFC;
+    width: 100%;
+}
+
+#landingpage .containerOne {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+#landingpage .containerOne .textone,
+#landingpage .containerOne .imageone {
+    display: flex;
+}
+
+#landingpage .containerOne .textone {
+    flex-direction: column;
+}
+
+#landingpage .containerOne .paddingStart {
+    padding-top: 120px;
+    padding-right: 200px;
+}
+
+#landingpage .containerOne .textone p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#landingpage .containerOne .textone .textonebutton {
+    background-color: #5E50A1;
+    padding: 13px 20px;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #5E50A1;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#landingpage .containerOne .textone .textonebutton:hover {
+    background-color: #ffffff;
+    color: #5E50A1;
+}
+
+#landingpage .containerOne img {
+    width: 500px;
+}
+
+#landingpage .containerOne .paddingtwo {
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex-direction: column;
+}
+
+#landingpage .containerOne .paddingtwo p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#landingpage .containerOne .paddingSkill {
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 150px;
+}
+
+#landingpage .containerOne .paddingSkill p {
+    margin-top: 10px;
+}
+
+#landingpage .containerOne .skillcontainer {
+    display: flex;
+}
+
+#landingpage .containerOne .skillcontainer .skillLeft {
+    width: 50%;
+}
+
+#landingpage .containerOne .skillcontainer .skillRight {
+    width: 50%;
+}
+
+#landingpage .containerOne .skillcontainer .skillLeft p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-left: 0px;
+}
+
+#landingpage .containerOne .skillcontainer .skillRight p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    // padding-left: 100px;
+}
+
+#landingpage .containerOne .opinioncontainer {
+    width: 100%;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+#landingpage .containerOne .opinioncontainer .paddingcarrousel {
+    text-align: center;
+}
+
+#landingpage .containerOne .opinioncontainer .paddingcarrousel h1 {
+    padding-top: 60px;
+}
+
+#landingpage .containerOne .opinioncontainer .paddingcarrousel .sliderprofile {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.slick-prev,
+.slick-next {
+    color: #5E50A1;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+}
+
+.slick-prev:before,
+.slick-next::before {
+    color: #5E50A1;
+    font-size: 40px;
+}
+
+#landingpage .containerOne .opinioncontainer .paddingcarrousel .sliderprofile .card-profile {
+    background-color: #ffffff;
+    max-width: 300px;
+    height: 330px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#landingpage .containerOne .opinioncontainer .paddingcarrousel .sliderprofile .card-profile .framephoto img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 7px solid #FBB0175E;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+#landingpage .containerOne .opinioncontainer .paddingcarrousel .sliderprofile .card-profile h3 {
+    font-weight: 500;
+}
+
+#landingpage .containerOne .opinioncontainer .paddingcarrousel .sliderprofile .card-profile p {
+    color: #9EA0A5;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#landingpage .containerOne .opinioncontainer .paddingcarrousel .sliderprofile .card-profile .textopinion {
+    color: #46505C;
+    font-weight: 500;
+    padding: 0px 50px 0px 50px;
+}
+
+#landingpage .containerOne .infobar {
+    display: flex;
+    justify-content: end;
+}
+
+#landingpage .containerOne .infobar .infoframe img {
+    width: 100%;
+}
+
+#landingpage .containerOne .infobar .infoframe h1 {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 100px;
+    width: 400px;
+    color: #ffffff;
+}
+
+#landingpage .containerOne .infobar .textonebutton {
+    position: absolute;
+    background-color: #ffffff;
+    margin-top: 80px;
+    margin-right: 50px;
+    padding: 13px 20px;
+    width: 200px;
+    height: 50px;
+    color: #5E50A1;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #5E50A1;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#landingpage .containerOne .infobar .textonebutton:hover {
+    background-color: #7967d8;
+    color: #ffffff;
+}
+
+//////////////////////////////////////////////////////////////////////////
+// RESPONSIVE
+@media (max-width: 767.98px) {
+    #landingpage .containerOne {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #landingpage .containerOne .textone {
+        width: 100%;
+    }
+
+    #landingpage .containerOne .textone.mobileCenter {
+        align-items: center;
+    }
+
+    #landingpage .containerOne .paddingStart {
+        padding: 0 0 40px 40px;
+    }
+
+    #landingpage .containerOne .imageone {
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #landingpage .containerOne .imageone img {
+        max-width: 340px;
+        width: 340px;
+    }
+
+    #landingpage .containerOne .textone img {
+        max-width: 340px;
+        width: 340px;
+    }
+
+    #landingpage .containerOne .paddingSkill {
+        padding-left: 50px;
+        padding-top: 0px;
+    }
+
+    .slick-prev,
+    .slick-next {
+        width: 80px;
+        height: 100px;
+    }
+
+    .slick-prev:before,
+    .slick-next::before {
+        font-size: 50px;
+    }
+
+    #landingpage .containerOne .paddingcarrousel {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #landingpage .containerOne .opinioncontainer .paddingcarrousel h1 {
+        text-wrap: nowrap;
+        font-size: 30px;
+    }
+
+    #landingpage .containerOne .infobar {
+        justify-content: baseline;
+    }
+
+    #landingpage .containerOne .infobar .infoframe img {
+        width: 100%;
+    }
+
+    #landingpage .containerOne .infobar .infoframe h1 {
+        margin-top: -60px;
+        margin-left: 50px;
+        font-size: 18px;
+        width: 140px;
+    }
+
+    #landingpage .containerOne .infobar .textonebutton {
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 150px;
+        padding: 0px 30px;
+    }
+
+}
